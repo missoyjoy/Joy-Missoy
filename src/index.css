@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@keyframes slide-in-left {
+  0% { opacity: 0; transform: translateX(-50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slide-in-up {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in-right {
+  0% { opacity: 0; transform: translateX(50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slide-in-left { animation: slide-in-left 0.8s ease forwards; }
+.animate-slide-in-up { animation: slide-in-up 0.8s ease forwards; }
+.animate-slide-in-right { animation: slide-in-right 0.8s ease forwards; }
+
