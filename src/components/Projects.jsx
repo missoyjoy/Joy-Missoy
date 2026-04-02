@@ -21,11 +21,11 @@ const projects = [
     link: "https://jmmotor.netlify.app/",
   },
   {
-    name: "Transwork",
+    name: "KQ-Tours & Travel",
     tech: "React, Tailwind",
-    desc: "Dynamic construction website.",
+    desc: "Global tours and travelwebsite.",
     screenshot: transworkScreenshot,
-    link: "https://transworkengineering.com/",
+    link: "https://kqafrikaglobetour.netlify.app/",
   },
 ];
 
