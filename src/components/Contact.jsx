@@ -38,7 +38,7 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12 w-full max-w-4xl">
         <div className="flex items-center gap-4 bg-white/30 backdrop-blur-md p-6 rounded-2xl shadow-md flex-1 hover:shadow-xl transition">
           <FaEnvelope className="text-blue-500 text-2xl" />
-          <span className="text-gray-800">joymissoy@gmail.com</span>
+          <a href="mailto:missoyjoy2019@gmail.com" className="text-gray-800 hover:underline">missoyjoy2019@gmail.com</a>
         </div>
         <div className="flex items-center gap-4 bg-white/30 backdrop-blur-md p-6 rounded-2xl shadow-md flex-1 hover:shadow-xl transition">
           <FaPhoneAlt className="text-blue-500 text-2xl" />
@@ -47,7 +47,7 @@ export default function Contact() {
         <div className="flex items-center gap-4 bg-white/30 backdrop-blur-md p-6 rounded-2xl shadow-md flex-1 hover:shadow-xl transition">
           <FaLinkedin className="text-blue-500 text-2xl" />
           <a
-            href="https://www.linkedin.com/in/joymissoy"
+            href="https://www.linkedin.com/in/joy-missoy-56638423a/"
             target="_blank"
             className="text-gray-800 hover:underline"
           >

@@ -54,26 +54,14 @@ export default function About() {
         </div>
       </div>
 
-      {/* Section 2: Contact */}
-      <div className="mt-10 flex flex-col items-center gap-4">
-        <h3 className="text-2xl font-bold text-gray-800">Hire Me / Get In Touch</h3>
-        <p className="text-gray-600">Feel free to reach out — I'm open to opportunities and collaborations.</p>
-        <div className="flex flex-wrap gap-4 justify-center">
-          <a
-            href="mailto:missoyjoy2019@gmail.com"
-            className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition flex items-center gap-2"
-          >
-            📧 missoyjoy2019@gmail.com
-          </a>
-          <a
-            href="https://www.linkedin.com/in/joy-missoy-56638423a/"
-            target="_blank"
-            rel="noreferrer"
-            className="px-6 py-3 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition flex items-center gap-2"
-          >
-            🔗 LinkedIn Profile
-          </a>
-        </div>
+      {/* Section 2: Hire Me Button */}
+      <div className="mt-10">
+        <a
+          href="#contact"
+          className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
+        >
+          Hire Me
+        </a>
       </div>
       {/* ===== SERVICES SECTION ===== */}
 <div className="mt-12 w-full max-w-6xl">
