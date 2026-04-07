@@ -2,8 +2,11 @@ import React from "react";
 
 // Screenshots of projects
 import beautyShopScreenshot from "../assets/BeutyHaven.jpeg";
-import authScreenshot from "../assets/jmcars.jpeg";
-import transworkScreenshot from "../assets/Trans.jpeg";
+import jmcarsScreenshot from "../assets/jmcars.jpeg";
+import kqtoursScreenshot from "../assets/kqtours.jpeg";
+import dictionaryScreenshot from "../assets/dictionary.jpeg";
+import gameappScreenshot from "../assets/gameapp.jpeg";
+import kqbeautyScreenshot from "../assets/kqbeauty.jpeg";
 
 const projects = [
   {
@@ -14,18 +17,39 @@ const projects = [
     link: "https://beautyhavenn.netlify.app/",
   },
   {
-    name: "Authentication & Role-Based Access",
-    tech: "Flask, JWT, PostgreSQL",
-    desc: "Secure login system with role-based permissions for admin and user routes.",
-    screenshot: authScreenshot,
+    name: "JM Motors",
+    tech: "React, Flask, JWT, PostgreSQL",
+    desc: "Car dealership platform with secure login, role-based access, and vehicle listings.",
+    screenshot: jmcarsScreenshot,
     link: "https://jmmotor.netlify.app/",
   },
   {
-    name: "KQ-Tours & Travel",
+    name: "KQ Afrika Globe Tours",
     tech: "React, Tailwind",
-    desc: "Global tours and travelwebsite.",
-    screenshot: transworkScreenshot,
+    desc: "Global tours and travel website showcasing destinations and packages.",
+    screenshot: kqtoursScreenshot,
     link: "https://kqafrikaglobetour.netlify.app/",
+  },
+  {
+    name: "Dictionary App",
+    tech: "React, API",
+    desc: "Interactive dictionary app with word definitions, phonetics, and examples.",
+    screenshot: dictionaryScreenshot,
+    link: "https://missoyjoy.github.io/Dictionary-App/",
+  },
+  {
+    name: "JM Game App",
+    tech: "React, Tailwind",
+    desc: "Fun and interactive gaming web application with multiple game modes.",
+    screenshot: gameappScreenshot,
+    link: "https://jmgameapp.netlify.app/",
+  },
+  {
+    name: "KQ Beauty Parlour",
+    tech: "React, Tailwind",
+    desc: "Beauty parlour website with service listings, booking, and elegant design.",
+    screenshot: kqbeautyScreenshot,
+    link: "https://kqbeautyparlour.netlify.app/",
   },
 ];
 
